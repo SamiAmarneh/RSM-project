@@ -326,3 +326,24 @@ h2 {
 /*--------------------*/
 
 
+@media (max-width: 1200px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+    
+    .Book_Grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper
+    {
+        flex-direction: column;
+    }
+
+    .Book_Grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

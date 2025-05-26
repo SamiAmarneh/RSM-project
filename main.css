@@ -379,6 +379,27 @@ margin: 0;
   object-fit: cover; 
 } 
 
+#New-Bloger p{
+  text-align: justify;
+  word-spacing: 0;
+
+}
+#New-Bloger h1{
+  color: var(--Strong-Cyan);
+
+}
+#New-Bloger i{
+  color: var(--Strong-Cyan);
+
+}
+.icons-Bloger{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
 /*--------------------*/
 
 

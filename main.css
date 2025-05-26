@@ -372,6 +372,13 @@ position: absolute;
   border-color: white;
   } 
 
+  #New-Bloger img{
+  width: 404.76px;
+  height: 269.63;
+margin: 0;
+  object-fit: cover; 
+} 
+
 /*--------------------*/
 
 

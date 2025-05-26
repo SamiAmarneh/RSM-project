@@ -353,6 +353,24 @@ position: absolute;
  font-size: 22px;
 }
 
+#New-Bloger{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  margin: 1% 4% ; 
+}
+
+#New-Bloger > div{
+  padding:  2%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  border-color: white;
+  } 
 
 /*--------------------*/
 

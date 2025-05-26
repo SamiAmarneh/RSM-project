@@ -8,21 +8,19 @@
 
 /* Variables */
 :root {
-    --color-primary: #00a6a6;
-    --color-secondary: #333;
-    --color-background: #fff;
-    --color-text: #555;
-    --color-border: #eee;
-    --color-card: #fff;
-    --color-header: #fff;
-    --color-footer: #EAEAEA;
-    --color-footer-text: #333;
-    --shadow-default: rgba(0, 0, 0, 0.1);
-    --shadow-hover: rgba(0, 123, 255, 0.3);
-    --section-alt: #f9f9f9;
-}
-
-
+    --main-color: #efefef;
+    --primary-color: #1d2d3d;
+    --secondary-color:#495e74 ;
+    --gray-color: #778697;
+    --dark-color: #292b2c;
+    --blue-color: #0275d8;
+    --green-color: #27ae60;
+    --green-sea-color: #16a085;
+    --pumpkin-color: #d35400;
+    --red-color: #d9534f;
+    --white-color: #fff;
+    --Strong-Cyan:#089da1;
+  }
 body {
     line-height: 1.6;
     color: var(--color-text);
@@ -656,6 +654,22 @@ width: 100%;
 }
 
 }
+
+.button-learn3{
+  color: black;
+  background-color:white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin:0;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid var(--Strong-Cyan);
+}
+
+.button-learn3:hover {
+  background-color: #007777;
+}
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) { 
 .section1 {
     display: flex;

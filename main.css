@@ -331,6 +331,12 @@ width: 100%;
 height: auto;
 }
 
+.Digital-Book {
+position: relative;
+display: inline-block;
+margin-right: 0;
+}
+
 
 
 /*--------------------*/

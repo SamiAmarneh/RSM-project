@@ -325,18 +325,17 @@ h2 {
 
 /*  zyoud   */
 
+/*--------------------*/
 
 .Digital-Book img{
 width: 100%;
 height: auto;
 }
-
 .Digital-Book {
 position: relative;
 display: inline-block;
 margin-right: 0;
 }
-
 .Digital-Book input {
 position: absolute;
       top: 70%;  
@@ -344,23 +343,22 @@ position: absolute;
       padding: 5px;
       font-size: 16px;
       background-color: var(--Strong-Cyan);
-      color: white;
-}
-
+      color: white;
+ }
 .our-blog{
   margin-top: 2%;
  text-align: center;
  font-size: 22px;
 }
-
 #New-Bloger{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 5%;
   margin: 1% 4% ; 
-}
 
+
+}
 #New-Bloger > div{
   padding:  2%;
   gap: 10px;
@@ -371,8 +369,7 @@ position: absolute;
   align-items:flex-start;
   border-color: white;
   } 
-
-  #New-Bloger img{
+#New-Bloger img{
   width: 404.76px;
   height: 269.63;
 margin: 0;
@@ -399,7 +396,6 @@ margin: 0;
   justify-content: space-between;
   width: 400px;
 }
-
 .footer{
   display: flex;
 background-color: #eaeaea;
@@ -415,7 +411,6 @@ flex-direction: column;
 gap: 30px;
 width: 15%;
 }
-
 .sec1-footer img{
 width: 40%;
 height: 40%;
@@ -425,7 +420,6 @@ height: 40%;
   word-spacing: 0;
  
 }
-
 .Quick-Link-list{
 display: flex;
 flex-direction: column;
@@ -448,7 +442,6 @@ flex-direction: column;
   flex-direction: column;
   gap: 5px;
 }
-
 #email-input {
   width: 100%;
   padding: 3% 20% 3% 4%;
@@ -501,7 +494,6 @@ text-align: center;
     font-size: 14px;
   }
 
-
   .books img {
     width: 100%;
     height: auto;
@@ -518,8 +510,7 @@ text-align: center;
 
 
   }
-
-   .logo{
+  .logo{
 
     width:20%;
     height: 10%;
@@ -538,8 +529,7 @@ text-align: center;
   justify-content: space-between;
   gap: 20px;
   }
-
-   .section2{
+  .section2{
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -666,52 +656,161 @@ width: 100%;
 }
 
 }
+@media only screen and (min-width: 601px) and (max-width: 1024px) { 
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+.section-1-A {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .welcom-t0-book-store pre,
+  .paragraph pre {
+    font-size: 14px;
+    white-space: normal;
+  }
+  .button-learn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .books img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+.classbg img {
+    display: none; 
+  }
+.header{
+  
+    padding: 10%;
 
+  }
+ .logo{
 
-/*--------------------*/
-
-
-@media (max-width: 1200px) {
-    .wrapper {
-        padding: 0 30px;
-    }
+    width:20%;
+    height: 10%;
     
-    .book-grid {
-        grid-template-columns: repeat(4, 1fr);
     }
+  .list-componnent{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap:5%;
+   
+  }
+.icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  }
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0;
+  }
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0;
+  }
+
+.Lorem-ipsum pre{
+    font-size: 15px;
+    white-space: normal;
+    
+  }
+
+#Books-name{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0; 
+  }
+#New-Arrivals-book-A{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0; 
+  }
+#New-Arrivals-book-B{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0; 
+  }
+#New-Reviews{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 15px;
+  gap: 1rem;
+  margin: 0; 
+  overflow: hidden;
+
+}
+.img-and-quote{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;  
+}
+#New-Bloger{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 100px;
+  gap: 1rem;
+  margin: 0; 
+  width: 100%;
+
+}
+.footer{
+  display: flex;
+background-color: #eaeaea;
+align-items: flex-start;
+justify-content: space-around;
+
+gap: 10px;
+width: 100%;
+}
+#email-input{
+  width: 135px;
 }
 
-@media (max-width: 992px) {
-    .wrapper
-    {
-        flex-direction: column;
-    }
 
-    .book-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+
 }
-
-@media (max-width: 768px) {
-    section {
-        padding: 50px 0;
-    }
+a{
 
 
-    .book-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 576px) {
-
-    .book-grid {
-        grid-template-columns: 1fr;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-
+  text-decoration: none;
 }

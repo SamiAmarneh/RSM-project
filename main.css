@@ -400,6 +400,22 @@ margin: 0;
   width: 400px;
 }
 
+.footer{
+  display: flex;
+background-color: #eaeaea;
+align-items: flex-start;
+justify-content: space-around;
+padding: 1% ;
+
+
+}
+.sec1-footer{
+display: flex;
+flex-direction: column;
+gap: 30px;
+width: 15%;
+}
+
 /*--------------------*/
 
 

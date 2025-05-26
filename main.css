@@ -113,22 +113,22 @@ h2 {
 
 
 /* Featured Books Section */
-.featured-books, .new-arrivals {
+.featured-books, .new_arrivals {
     position: relative;
     padding: 2rem 0;
 }
 
-.new-arrivals {
+.new_arrivals {
     background-color: var(--section-alt);
 }
 
-.book-carousel-container {
+.container {
     position: relative;
     overflow: hidden;
     margin: 0 -20px;
 }
 
-.book-carousel {
+.book {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -138,20 +138,20 @@ h2 {
 }
 
 
-.book-grid {
+.Book_Grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
 
-.book-card {
+.Book_Card {
     flex: 0 0 auto;
     width: 220px;
     transition: all 0.3s ease;
 }
 
-.book-card-inner {
+.card_inner {
     background-color: var(--color-card);
     border-radius: 1px;
     border: 1px solid black;
@@ -162,19 +162,19 @@ h2 {
     
 }
 
-.book-card-inner:hover {
+.card_inner:hover {
     box-shadow: 0 15px 30px var(--shadow-hover);
 }
 
 /* Added border and padding to book cover images */
-.book-cover {
+.cover {
     position: relative;
     overflow: hidden;
     height: 300px;
     padding: 10px;
 }
 
-.book-cover img {
+.cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -183,16 +183,16 @@ h2 {
     border-radius: 4px;
 }
 
-.book-card-inner:hover .book-cover img {
+.card_inner:hover .cover img {
     transform: scale(1.05);
 }
 
-.book-info {
+.info {
     padding: 15px;
     text-align: center;
 }
 
-.book-info h3 {
+.info h3 {
     font-size: 16px;
     margin-bottom: 5px;
     white-space: nowrap;
@@ -200,24 +200,24 @@ h2 {
     text-overflow: ellipsis;
 }
 
-.book-author {
+.author {
     font-size: 14px;
     color: #777;
     margin-bottom: 5px;
 }
 
-.book-genre {
+.genre {
     color: var(--color-primary);
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.book-price {
+.price {
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.book-price span {
+.price span {
     text-decoration: line-through;
     color: #999;
     margin-left: 5px;
@@ -240,90 +240,6 @@ h2 {
     transform: translateY(-2px);
 }
 
-/* Reviews Section */
-.customer-reviews {
-    background-color: var(--section-alt);
-    padding: 4rem 
-}
-
-.review-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-    gap: 30px;
-}
-
-.review-card {
-    background-color: var(--card-bg, #fff);
-    border-radius: .2rem;
-    padding: 1rem;
-    box-shadow: 0 0 5px var(--primary-color, #2596be);
-    position: relative;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.review-card:hover {
-   
-    box-shadow: 0 10px 25px var(--shadow-hover);
-}
-
-.reviewer-profile {
-      display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 15px;
-}
-
-.reviewer-profile img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-bottom: 8px;
-    object-fit: cover;
-}
-
-.reviewer-profile h4 {
-    margin: 0;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.review-body {
-    position: relative;
-    flex-grow: 1;
-}
-
-.quote-mark {
-    position: absolute;
-    top: -6rem;
-    right: 0.8rem;
-    opacity: 0.8;
-    font-size: 4rem;
-    color: var(--border-color, #e0e0e0);
-    font-family: 'Georgia', serif;
-    z-index: 0;
-    line-height: 1;
-}
-.review-body p{
-    position: relative;
-    font-size: .6rem;
-    line-height: 1.5;
-    color: #555;
-    z-index: 1;
-    margin: 0;
-    padding-top: .1rem;
-}
-
-.star-rating {
-    color: #FFD700;
-}
-
-
-
-
 
 
 
@@ -337,7 +253,7 @@ h2 {
         padding: 0 30px;
     }
     
-    .book-grid {
+    .Book_Grid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -348,7 +264,7 @@ h2 {
         flex-direction: column;
     }
 
-    .book-grid {
+    .Book_Grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -359,14 +275,14 @@ h2 {
     }
 
 
-    .book-grid {
+    .Book_Grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 576px) {
 
-    .book-grid {
+    .Book_Grid {
         grid-template-columns: 1fr;
     }
 

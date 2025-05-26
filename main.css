@@ -426,6 +426,19 @@ height: 40%;
  
 }
 
+.Quick-Link-list{
+display: flex;
+flex-direction: column;
+  gap: 10px;
+}
+.list-phonefooter{
+  display: flex;
+  flex-direction: column;
+    gap: 10px;
+
+}
+
+
 /*--------------------*/
 
 
